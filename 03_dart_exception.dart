@@ -22,6 +22,10 @@ Stream<String> report(Spacecraft craft, Iterable<String> objects) async* {
     yield '${craft.name} flies by $object';
   }
 }
+void main()
+{
+    
+}
 if (astronauts == 0) {
 
   throw StateError('No astronauts.');

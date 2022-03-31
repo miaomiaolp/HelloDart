@@ -72,6 +72,6 @@ void main()
     var voyager4=Orbiter('Voyager IIII',DateTime(2002, 3, 27),52.0);
     voyager4.describe();
     voyager4.describeCrew();
-    var text2=text();
-    text2.describeWithEmphasis();
+    var text3=text();
+    text3.describeWithEmphasis();
 }
